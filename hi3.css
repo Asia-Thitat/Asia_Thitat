@@ -1,0 +1,100 @@
+/* Package Section Specific */
+.section-subtitle {
+    text-align: center;
+    color: #555;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.package-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.package-card {
+    background: white;
+    width: 320px;
+    border-radius: 20px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+    border: 1px solid #e1f5fe;
+    position: relative;
+    transition: 0.3s;
+}
+
+/* เน้นการ์ดที่แนะนำ */
+.package-card.featured {
+    border: 2px solid #0077B6;
+    transform: scale(1.05);
+}
+
+.badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #0077B6;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.package-header h3 {
+    color: #0077B6;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.price span {
+    font-size: 1rem;
+    color: #888;
+}
+
+.package-features {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.package-features li {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.package-features li.disabled {
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+/* ปุ่มสำหรับ Package */
+.btn-package {
+    display: block;
+    background-color: #0077B6;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.featured .btn-package {
+    background-color: #00b4d8;
+}
+
+.btn-package:hover {
+    filter: brightness(1.1);
+    box-shadow: 0 5px 15px rgba(0, 119, 182, 0.3);
+}

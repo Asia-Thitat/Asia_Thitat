@@ -1,0 +1,11 @@
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: yellow;
+    background-color: rgb(9, 255, 0);
+    border: 50px;
+}
+body {
+    background-color: orange;
+
+}
